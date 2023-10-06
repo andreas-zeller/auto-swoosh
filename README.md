@@ -20,10 +20,10 @@ The enclosed app (an Automator script) fixes this by playing a "Swoosh" sound wh
 
 ## How does it work?
 
-`Auto Swoosh` is a handful of shell script lines that continuously monitor the system log for a log message from Mail.app
+`Auto Swoosh` is a tiny shell script lines that subscribes to messages from Mail.app named
 
     Do Not Disturb is enabled, sound play aborted
 
-and if this message occurs, plays a swoosh sound (instead of Mail.app).
+and as soon as Mail.app logs this message, `Auto Swoosh` plays a swoosh sound (instead of Mail.app).
 
-Open `Auto Swoosh.app` with Automator to see details.
+Open `Auto Swoosh.app` with the Automator app to see details.
