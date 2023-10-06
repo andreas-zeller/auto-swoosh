@@ -14,7 +14,7 @@ The enclosed app (an Automator script) fixes this by playing a "Swoosh" sound wh
 2. Move the resulting `Auto Swoosh` app to `/Applications` or `~/Applications` and open it. (You may have to [enable this explicitly](https://www.macworld.com/article/672947/how-to-open-a-mac-app-from-an-unidentified-developer.html).)
 3. Note that `Auto Swoosh` shows no notification that it is running - no menu bar icon, no dock, nada, niente, rien.
 4. However, you should **now get a swoosh sound whenever Mail.app sends a mail** - even when "do not disturb" or any other focus mode is on.
-5. The swoosh sound persists as long as `Auto Swoosh` is running.
+5. The swoosh sound persists as long as `Auto Swoosh` is running. To stop it, enter `pkill -f 'Auto Swoosh'` in Terminal.
 6. You can also add `Auto Swoosh` to the list of apps that are automatically opened when you login.
 
 
