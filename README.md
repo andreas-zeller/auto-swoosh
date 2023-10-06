@@ -10,7 +10,7 @@ The enclosed app (an Automator script) fixes this by playing a "Swoosh" sound wh
 
 ## Installation
 
-1. Download `Auto Swoosh.app.zip` and unzip it
+1. Download `Auto Swoosh.app.zip` from [Releases](https://github.com/andreas-zeller/auto-swoosh/releases) and unzip it
 2. Move the resulting `Auto Swoosh` app to `/Applications` or `~/Applications` and open it. (You may have to [enable this explicitly](https://www.macworld.com/article/672947/how-to-open-a-mac-app-from-an-unidentified-developer.html).)
 3. Note that `Auto Swoosh` shows no notification that it is running - no menu bar icon, no dock, nada, niente, rien.
 4. However, you should **now get a swoosh sound whenever Mail.app sends a mail** - even when "do not disturb" or any other focus mode is on.
