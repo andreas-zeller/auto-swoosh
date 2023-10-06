@@ -1,6 +1,6 @@
 # auto-swoosh
 
-On macOS, produce a "Swoosh" sound for sending mail even when Do Not Disturb or some other focus is on.
+On macOS, produce a "Swoosh" sound when sending mail even when Do Not Disturb or some other focus is on.
 
 ## Rationale
 
