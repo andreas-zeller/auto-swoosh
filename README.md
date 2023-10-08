@@ -24,6 +24,6 @@ The enclosed app (an Automator script) fixes this by playing a "Swoosh" sound wh
 
     Do Not Disturb is enabled, sound play aborted
 
-and as soon as Mail.app logs this message, `Auto Swoosh` plays a swoosh sound (instead of Mail.app).
+and as soon as Mail.app logs this message while sending a mail, `Auto Swoosh` plays a swoosh sound (instead of Mail.app).
 
 Open `Auto Swoosh.app` with the Automator app to see details.
