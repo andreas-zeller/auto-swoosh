@@ -23,6 +23,7 @@ The enclosed app (an Automator script) fixes this by playing a "Swoosh" sound wh
 
 	$ pip install appify
 	$ make
+	$ make install
 
 ## How does it work?
 
