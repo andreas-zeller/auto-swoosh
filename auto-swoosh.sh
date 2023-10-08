@@ -27,4 +27,4 @@ exec log stream --predicate '(subsystem == "com.apple.mail" and (composedMessage
             ;;
         esac
     done
-)
+) &
