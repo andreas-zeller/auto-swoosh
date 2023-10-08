@@ -8,6 +8,7 @@ On macOS Mail.app, the "Swoosh" sound when sending mail is turned off whenever s
 I think this is a bug, as I am rarely "disturbed" by my own actions.
 The enclosed app (an Automator script) fixes this by playing a "Swoosh" sound whenever Mail.app should, but does not.
 
+
 ## Installation
 
 1. Download `Auto Swoosh.app.zip` from [Releases](https://github.com/andreas-zeller/auto-swoosh/releases) and unzip it
@@ -18,6 +19,11 @@ The enclosed app (an Automator script) fixes this by playing a "Swoosh" sound wh
 6. You can also add `Auto Swoosh` to the list of apps that are automatically opened when you login.
 
 
+## Building
+
+	$ pip install appify
+	$ make
+
 ## How does it work?
 
 `Auto Swoosh` is a tiny shell script lines that subscribes to messages from Mail.app named
@@ -26,4 +32,4 @@ The enclosed app (an Automator script) fixes this by playing a "Swoosh" sound wh
 
 and as soon as Mail.app logs this message while sending a mail, `Auto Swoosh` plays a swoosh sound (instead of Mail.app).
 
-Open `Auto Swoosh.app` with the Automator app to see details.
+For details, see `auto-swoosh.sh`
